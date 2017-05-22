@@ -1,23 +1,207 @@
-<html>
 
+<doctype html>
+<html>
 	<head>
-		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/zepto.fullpage/0.5.0/zepto.fullpage.min.js'></script>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.css'/>
+		<link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One|Ubuntu+Condensed" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<title>
+			Raman Nv | About
+		</title>
+		<style>
+			body {
+				font-family:  'Poiret One','Open Sans Condensed', 'Anton', 'Josefin Sans', sans-serif;
+				font-size: 50px;
+				position: absolute;
+			}	
+
+			.section {
+				text-align: center;
+			}
+			.schwartz {
+				background-color: black;
+				color: white;
+
+			}
+			.small {
+				font-size: 30px;
+			}
+			.text {
+
+				margin-left:auto;
+				margin-right:auto;
+				width:80%;
+			}
+			.image {
+
+			}
+			a:link {
+				color: black;
+				text-decoration: none;
+			}
+			a:visited {
+				color: black;
+			}
+			a:hover {
+				color: black;
+				text-decoration: underline;
+			}
+			.si {
+				font-size: 21px;
+			}
+			.godown {
+				font-size: 25px; 
+				color:grey; 
+				opacity: 50%;
+			}
+			.godown:hover {
+				font-size: 25px; 
+				color:white; 
+				opacity: 50%;
+			}
+
+			.footer {
+			  display: -webkit-box;
+			  display: -moz-box;
+			  display: box;
+			  display: -webkit-flex;
+			  display: -moz-flex;
+			  display: -ms-flexbox;
+			  display: flex;
+			  -webkit-box-orient: vertical;
+			  -moz-box-orient: vertical;
+			  box-orient: vertical;
+			  -webkit-box-direction: normal;
+			  -moz-box-direction: normal;
+			  box-direction: normal;
+			  -webkit-flex-direction: column;
+			  -moz-flex-direction: column;
+			  flex-direction: column;
+			  -ms-flex-direction: column;
+			  border-top: 2px solid #e7ebee;
+			  margin: 6rem 0 3rem;
+			  padding: 6rem 0 0; }
+
+			.footer__title {
+			  font-size: 2.5rem;
+			  font-weight: 700;
+			  margin-bottom: 1.25rem; }
+
+			.footer__blurb {
+			  color: #878787;
+			  margin-bottom: 3.5rem; }
+
+			.footer__links {
+			  display: -webkit-box;
+			  display: -moz-box;
+			  display: box;
+			  display: -webkit-flex;
+			  display: -moz-flex;
+			  display: -ms-flexbox;
+			  display: flex;
+			  -webkit-box-orient: horizontal;
+			  -moz-box-orient: horizontal;
+			  box-orient: horizontal;
+			  -webkit-box-direction: normal;
+			  -moz-box-direction: normal;
+			  box-direction: normal;
+			  -webkit-flex-direction: row;
+			  -moz-flex-direction: row;
+			  flex-direction: row;
+			  -ms-flex-direction: row;
+			  -webkit-box-lines: multiple;
+			  -moz-box-lines: multiple;
+			  box-lines: multiple;
+			  -webkit-flex-wrap: wrap;
+			  -moz-flex-wrap: wrap;
+			  -ms-flex-wrap: wrap;
+			  flex-wrap: wrap;
+			  margin: 0;
+			  padding: 0; }
+
+			.footer__link {
+			  -webkit-box-flex: 0;
+			  -moz-box-flex: 0;
+			  box-flex: 0;
+			  -webkit-flex: 0 0 25%;
+			  -moz-flex: 0 0 25%;
+			  -ms-flex: 0 0 25%;
+			  flex: 0 0 25%;
+			  font-size: 1.9rem;
+			  line-height: 1.9rem;
+			  list-style: none;
+			  margin: 0 0 2.5rem;
+			  padding: 0; }
+			  .footer__link a {
+			    color: #373737; }
+			    .footer__link a:hover {
+			      color: #ff00c8;
+			      text-decoration: none; }
+			  .footer__link i {
+			    margin-right: .5rem; }
+
+			.footer__copyright {
+			  color: #e7ebee;
+			  font-size: 1.8rem;
+			  line-height: 1.8rem;
+			  margin-top: 4rem;
+			  text-align: right; }
+			  .footer__copyright a {
+			    color: #e7ebee;
+			    text-decoration: underline; }
+			  .footer__copyright:hover a {
+			    color: #878787; }
+			  .footer__copyright:hover i {
+			    color: red; }
+		</style>
 	</head>
-	<title>
-		Raman Nv
-	</title>
 	<body>
-		<div class = "header">
-			Raman Nv's Personal Blog
+
+		<div class="fullpage">
+
+			<div class="section schwartz" id="end">
+				<span style="font-size: 25px">Hi.</span> <br> I'm Raman.
+			</div>
+			<div class="section" id="end">
+				I write code. <br>
+				I study computer science. <br> 
+				<p class="si">
+				I like to travel, read, write and listen to 80's rock and various subgenres of metal.
+				</span>
+			</div>
+			<div class="section schwartz">
+				Here are the things I know:
+				<ul class="small" style="text-align: center; list-style-type: none;">
+					<li>Python <span class="si">(and django and flask web frameworks)</span></li>
+					<li>Node.js <span class="si">(and Express.js)</span></li>
+					<li>React.js <span class="si">(working on it)</span></li>
+					<li>Android <span class="si" style="color: grey;">and Java</span> <span class="si">(using Android Studio)</span></li>
+					<li>C/C++ <span class="si" style="opacity: 40%;">(kinda obligatory for CS students)</span></li>
+					<li>I also like typography and UI/UX design</li>
+				</ul>
+				And here are the things I can learn:
+				<ul class="small" style="list-style-type: none;">
+					<li>Anything. Seriously. <b> Any. Damn. Thing. </b></li>
+				</ul>
+			</div>
+			<div class="section ">
+				Find my projects <a href="http://github.com/ramannv"> <u> here</u>. </a> 
+				<br>
+				Contact me <a href="mailto:rnvnoc@gmail.com"><u>here</u>.</a>
+
+			</div>
+
 		</div>
-		<hr>
-		<div style="text-align: center">
-			Well, here are some links.
-			<br><br>	
-			<br>This is how the world ends,<br>
-			    Not with a bang, but with a whimper.<br>
-			    <i> T.S. Eliot</i>	    
-		</div>
+	
+
+		<script>
+			$(document).ready(function(){
+				$(".fullpage").fullpage();
+			})
+		</script>
 	</body>
 </html>
